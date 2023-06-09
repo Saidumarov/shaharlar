@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #1A202C;
+}
+
+.con {
+    width: 100%;
+    height: 80px;
+    background-color: #171923;
+    box-shadow: 2px 2px 2px 2px  #2D3748 ;
+  
+
+}
+
+.nav {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.tosh {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    width: 210px;
+    height: 50px;
+    background-color: #2D3748;
+    z-index: 0;
+    border-radius: 8px;
+    border: 1px solid #9AE6B4;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    transition: .2s;
+    color: white;
+}
+
+.buk {
+    margin-left: 190px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    width: 210px;
+    height: 50px;
+    background-color: #2D3748;
+    z-index: 0;
+    border-radius: 8px;
+    border: 1px solid #9AE6B4;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    transition: .2s;
+    
+    color: white;
+
+
+}
+
+.sam {
+    margin-left: 190px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    width: 230px;
+    height: 50px;
+    background-color: #2D3748;
+    z-index: 0;
+    border-radius: 8px;
+    border: 1px solid #9AE6B4;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    transition: .2s;
+    color: white;
+
+
+}
+
+.tosh:hover{
+    background-color: #2b3342; 
+    box-shadow: 0.1px 0.1px 1px 1px  #9AE6B4;
+}
+
+.buk:hover{
+    background-color: #2b3342; 
+    box-shadow: 0.1px 0.1px 1px 1px  #9AE6B4;
+
+}
+.sam:hover{
+    background-color: #2b3342; 
+    box-shadow: 0.1px 0.1px 1px 1px  #9AE6B4;
+
+}
+
+@media screen and (max-width:1000px) {
+    .tosh {
+        font-size: 10px;
+    }
+    .sam {
+        font-size: 10px;
+        margin-left: 100px;
+    }
+    .buk {
+        font-size: 10px;
+        margin-left: 100px;
+
+    }
+
+}
+@media screen and (max-width:700px) {
+    .tosh {
+        font-size: 8px;
+    }
+    .sam {
+        font-size: 8px;
+        margin-left: 80px;
+    }
+    .buk {
+        font-size: 8px;
+        margin-left: 80px;
+
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .tosh {
+        font-size: 8px;
+    }
+    .sam {
+        font-size: 8px;
+        margin-left: 20px;
+    }
+    .buk {
+        font-size: 8px;
+        margin-left: 20px;
+
+    }
+
+}
