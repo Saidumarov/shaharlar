@@ -134,6 +134,14 @@ body {
         margin-left: 80px;
 
     }
+    .con {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      
+    
+    }
 
 }
 

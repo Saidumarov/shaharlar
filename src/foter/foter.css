@@ -84,3 +84,10 @@ h2 {
 
 }
 }
+
+@media screen and (max-width:850px) {
+
+    .fot {
+        margin-top: 115px;
+    }
+}
