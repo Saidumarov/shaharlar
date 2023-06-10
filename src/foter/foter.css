@@ -63,6 +63,8 @@ h2 {
     margin-top: 30px;
     border-radius: 7px;
     border-left: 2px solid #9AE6B4;
+    margin-top: 110px;
+
 }
 .blog {
     width: 90%;
@@ -91,5 +93,11 @@ h2 {
 
     .fot {
         margin-top: 114px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .fot{
+        height: auto;
     }
 }
