@@ -35,9 +35,9 @@ const Fotapi = () => {
     <div>
       <div className="con">
         <div className="nav">
-          <button className="toshkent" onClick={tosh}><h1>Toshkent</h1></button>
-          <button className="samarqand" onClick={sam}><h1>Samarqand</h1></button>
-          <button className="bukhara" onClick={buk} ><h1>Buxoro</h1></button>
+          <button className="tosh" onClick={toshkent}><h1>Toshkent</h1></button>
+          <button className="sam" onClick={samarqand}><h1>Samarqand</h1></button>
+          <button className="buk" onClick={bukhara} ><h1>Buxoro</h1></button>
 
         </div>
       </div>
