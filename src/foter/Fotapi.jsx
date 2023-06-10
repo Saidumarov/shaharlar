@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-"../componets/Nav/nav.css"
+import "../componets/Nav/nav.css"
 
 const Fotapi = () => {
   const [state, setState] = useState();
