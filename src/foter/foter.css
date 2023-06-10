@@ -12,12 +12,10 @@
     margin-top: 30px;
     border-radius: 7px;
     border-left: 2px solid #9AE6B4;
+    margin-top: 110px;
 }
 
-.fod1,
-.fod2 {
-    display: none;
-}
+
 
 .span {
     color: #9AE6B4;
@@ -33,6 +31,9 @@
     text-align: center;
     color:#bcbec6;
     line-height: 1.2;
+    text-align: justify;
+    padding-top: 20px;
+
  
 }
 
@@ -47,8 +48,9 @@ h2 {
     text-align: center;
     font-family: sans-serif;
     color: white;
-    padding-top: 15px;
+    padding-top: 0px;
     padding-bottom: 5px;
+    font-size: 26px;
 }
 
 @media screen and (max-width:1250px) {
@@ -85,9 +87,9 @@ h2 {
 }
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:700px) {
 
     .fot {
-        margin-top: 115px;
+        margin-top: 114px;
     }
 }

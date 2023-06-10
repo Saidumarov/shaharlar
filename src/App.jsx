@@ -6,7 +6,7 @@ import Foter from "./foter/Foter"
 function App() {
   return (
     <div>
-      <Nav />
+      <Nav/>
       <Foter/>
     </div>
   )
