@@ -13,7 +13,7 @@ const Fotapi = () => {
     </div>);
   };
 
-  const samarqnd = () => {
+  const samarqand = () => {
     setState(<div className='text'> <h2>Samarqand</h2> Samarqand — Oʻzbekiston Respublikasi Samarqand viloyatidagi qadimiy shahar. Viloyatning maʼmuriy, iqtisodiy va madaniy markazi (1938-yildan). 1925-1930-yillarda Respublika poytaxti. Oʻzbekistonning janubi-gʻarbida, Zarafshon vodiysining markaziy qismida (Dargʻom va Siyob kanallari orasida) joylashgan. Oʻrtacha 695 m balandlikda. Toshkentdan 300 km. Samarqanddan Toshkent—Dushanbe, Toshkent—Turkmanboshi, Toshkent—Uchquduq—Qoʻngʻirot temir yoʻllari, Katta Oʻzbek trakti (Toshkent—Termiz yoʻli) oʻtadi. Shahar aholisi va xoʻjaliklari Shovdor, Bogʻishamol ariqlaridan suv oladi. Iyulning oʻrtacha harorati 25,9°, eng baland harorat 40—42°, yanvar oʻrtacha harorati 0,2°, eng past harorat —26°. Maydoni 120 km². Aholisi 519600 ming kishi (2016). Samarqand shahar Kengashiga qarashli 4 shaharcha (Ingichka, Kimyogarlar, Farhod, Hishrov) mavjud. 2022-yilning 15-16-sentabr kunlari ShHTga aʼzo davlat rahbarlarining tartib boʻyicha 22-yigʻilish boʻlgan Samarqand sammiti boʻlib oʻtgan.
       Samarqand jahonning eng qadimgi shaharlaridan biri — 2700-yildan ortiq tarixga ega.
 
