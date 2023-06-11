@@ -29,12 +29,12 @@
 .text {
     font-size: 24px;
     text-align: center;
-    color:#bcbec6;
+    color: #bcbec6;
     line-height: 1.2;
     text-align: justify;
     padding-top: 20px;
 
- 
+
 }
 
 .blog {
@@ -54,39 +54,41 @@ h2 {
 }
 
 @media screen and (max-width:1250px) {
-    
-.fot {
-    width: 95%;
-    height: 600px;
-    background-color: #2D3748;
-    margin: 0 auto;
-    margin-top: 30px;
-    border-radius: 7px;
-    border-left: 2px solid #9AE6B4;
-    margin-top: 110px;
 
-}
-.blog {
-    width: 90%;
-    text-align: justify;
-    margin: 0 auto;
+    .fot {
+        width: 95%;
+        height: 600px;
+        background-color: #2D3748;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 7px;
+        border-left: 2px solid #9AE6B4;
+        margin-top: 110px;
 
-}
+    }
+
+    .blog {
+        width: 90%;
+        text-align: justify;
+        margin: 0 auto;
+
+    }
 
 }
 
 @media screen and (max-width:850px) {
-.fot{
-    height: auto;
-}
-.blog {
-    width: 90%;
-    text-align: justify;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    .fot {
+        height: auto;
+    }
 
-}
+    .blog {
+        width: 90%;
+        text-align: justify;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-bottom: 25px;
+
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -97,7 +99,15 @@ h2 {
 }
 
 @media screen and (max-width:1240px) {
-    .fot{
+    .fot {
         height: auto;
     }
-}
+    
+    .blog {
+        width: 90%;
+        text-align: justify;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-bottom: 80px;
+
+    }}
