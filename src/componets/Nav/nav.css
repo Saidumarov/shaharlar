@@ -13,11 +13,11 @@ body {
     width: 100%;
     height: 80px;
     background-color: #171923;
-    box-shadow: 2px 2px 2px 2px  #2D3748 ;
+    box-shadow: 2px 2px 2px 2px #2D3748;
     position: absolute;
     top: 0;
     left: 0;
-  
+
 
 }
 
@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
 }
 
 .tosh {
@@ -66,7 +66,7 @@ body {
     align-items: center;
     font-size: 12px;
     transition: .2s;
-    
+
     color: white;
 
 
@@ -93,19 +93,28 @@ body {
 
 }
 
-.tosh:hover{
-    background-color: #2b3342; 
-    box-shadow: 0.1px 0.1px 1px 1px  #9AE6B4;
+.content {
+    display: none;
 }
 
-.buk:hover{
-    background-color: #2b3342; 
-    box-shadow: 0.1px 0.1px 1px 1px  #9AE6B4;
+.content-active {
+    display: block;
+}
+
+.tosh:hover {
+    background-color: #2b3342;
+    box-shadow: 0.1px 0.1px 1px 1px #9AE6B4;
+}
+
+.buk:hover {
+    background-color: #2b3342;
+    box-shadow: 0.1px 0.1px 1px 1px #9AE6B4;
 
 }
-.sam:hover{
-    background-color: #2b3342; 
-    box-shadow: 0.1px 0.1px 1px 1px  #9AE6B4;
+
+.sam:hover {
+    background-color: #2b3342;
+    box-shadow: 0.1px 0.1px 1px 1px #9AE6B4;
 
 }
 
@@ -113,10 +122,12 @@ body {
     .tosh {
         font-size: 10px;
     }
+
     .sam {
         font-size: 10px;
         margin-left: 100px;
     }
+
     .buk {
         font-size: 10px;
         margin-left: 100px;
@@ -124,26 +135,30 @@ body {
     }
 
 }
+
 @media screen and (max-width:700px) {
     .tosh {
         font-size: 8px;
     }
+
     .sam {
         font-size: 8px;
         margin-left: 80px;
     }
+
     .buk {
         font-size: 8px;
         margin-left: 80px;
 
     }
+
     .con {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      
-    
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+
     }
 
 }
@@ -152,10 +167,12 @@ body {
     .tosh {
         font-size: 8px;
     }
+
     .sam {
         font-size: 8px;
         margin-left: 20px;
     }
+
     .buk {
         font-size: 8px;
         margin-left: 20px;

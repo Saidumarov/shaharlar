@@ -1,13 +1,14 @@
 import React from 'react'
 import "./foter.css"
-import Fotapi from './Fotapi'
+import Foterdata from './Foterdata'
+
+
 
 const Foter = () => {
   return (
     <div>
       <div className="fot">
-       <Fotapi/>
-
+       <Foterdata/>
       </div>
     </div>
   )
